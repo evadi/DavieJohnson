@@ -22,11 +22,30 @@
 
 .feature .middle-container .middle-align {
     margin:0 auto;
-    width:60%;
+    width:90%;
     height: 100%;
     text-align: center;
     display: table;
 }
+
+@media (min-width: 768px) {
+  .feature .middle-container .middle-align {
+    width:80%;
+  }
+}
+
+@media (min-width: 992px) {
+  .feature .middle-container .middle-align {
+    width:60%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .feature .middle-container .middle-align {
+    width:40%;
+  }
+}
+
 
 .feature .middle-container .middle-align .feature-content {
     color: #fff;
@@ -57,7 +76,6 @@
     padding: 0;
     color: #fff;
     display: block;
-    padding: 0 180px;
 }
 
 
