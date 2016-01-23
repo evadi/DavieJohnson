@@ -6,7 +6,7 @@
     bottom: 0;
     z-index: 1000;
     display: block;
-    background-color: #f4f4f4;
+    background-color: #E9F3D9;
   }
 }
 
@@ -43,12 +43,11 @@
 }
 
 .sidebar .menu-wrapper .brand-info .divider a {
-    color: #fff;
-    font-weight: 300;
+    color: #666;
     font-size: 16px;
     display: block;
     padding: 10px 20px;
-    background: #333;
+    background: #A1C22D;
     border-radius: 3px;
 }
 
