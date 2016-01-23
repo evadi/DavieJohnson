@@ -1,0 +1,72 @@
+.feature {
+    max-height: 560px;
+    min-height: 300px;
+    height: 560px;
+}
+
+.feature .inner-image {
+    background-image: url(https://lh3.googleusercontent.com/UUjWfpmO1Nv7bYKigWl0-PnhS8COYRgH1m7o_j09w1vawfiKsi8kKe5PFMqaJZjkqAymAHBUyn7c_6uk5w=s1600);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+}
+
+.feature .middle-container {
+    position: relative;
+    height: 100%;
+}
+
+.feature .middle-container .middle-align {
+    margin:0 auto;
+    width:60%;
+    height: 100%;
+    text-align: center;
+    display: table;
+}
+
+.feature .middle-container .middle-align .feature-content {
+    color: #fff;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.feature .middle-container .middle-align .feature-content h1 {
+    font-weight: 100;
+    font-size:70px;
+    letter-spacing: -2px;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.feature .middle-container .middle-align .feature-content h2 {
+    font-weight: 100;
+    font-size:25px;
+    text-transform: uppercase;
+    margin:0 0 30px 0;
+    padding: 0;
+}
+
+.feature .middle-container .middle-align .feature-content p {
+    font-weight: 300;
+    font-size:18px;
+    padding: 0;
+    color: #fff;
+    display: block;
+    padding: 0 180px;
+}
+
+
+.feature .overlay {
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+}
