@@ -1,17 +1,11 @@
-.no-padd {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-}
-
 .feature {
-    max-height: 560px;
+    max-height: 460px;
     min-height: 300px;
-    height: 560px;
+    height: 460px;
     position: relative;
 }
 
 .feature .inner-image {
-    background-image: url(http://thomasbuildingservices.ie/wp-content/uploads/2015/02/Plasteringwall1.jpg);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -84,10 +78,35 @@
     display: block;
 }
 
+.actions {
+    padding: 30px;
+}
 
-.feature .overlay {
-    background: #000;
-    opacity: 0.5;
+.actions .action {
+    padding: 80px 30px;
+    margin-bottom: 30px;
+    min-height: 255px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #aaa;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+
+.actions .action:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.actions .action .action-image {
+    background-size: cover;
+    background-position: center;
     position: absolute;
     left:0px;
     right:0px;
@@ -95,72 +114,18 @@
     bottom:0px;
 }
 
-
-.stripe-container {
-    background: #666;
-}
-
-.stripe-container .call-to-action {
-    text-align: center;
-}
-
-.stripe-container .call-to-action span {
-    padding: 20px;
-    font-size: 16px;
-    display: inline-block;
-    color: #fff;
-    font-weight: 100;    
-}
-
-.stripe-container .call-to-action a {
-    color: #666;
-    font-size: 16px;
-    padding: 10px 20px;
-    background: #A1C22D;
-    border-radius: 3px;
-    display: inline-block;
-}
-
-.page-container .center-align {
-    margin:30px auto;
-    padding: 0 30px;
-}
-
-@media (min-width: 768px) {
-    .page-container .center-align {
-        width:388px;
-        padding: 0;
-    }
-}
-
-
-@media (min-width: 992px) {
-    .page-container .center-align {
-        width:612px;
-        padding: 0;
-    }
-}
-
-
-@media (min-width: 1200px) {
-    .page-container .center-align {
-        width:820px;
-        padding: 0;
-    }
-}
-
-@media (min-width: 1480px) {
-    .page-container .center-align {
-        width:1100px;
-        padding: 0;
-    }
-}
-
-.page-container h1 {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+.actions .action a {
+    font-size: 20px;
     font-weight: 300;
-    display: inline-block;
-    margin: 0 5px 20px 0;
+    color: #fff;
+    display: block;
+    position: relative;
+}
+
+.actions .action span {
+    color:#fff;
+    font-weight: 100;
+    display: block;
+    position: relative;
+    font-size: 16px;
 }

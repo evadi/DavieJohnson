@@ -19,7 +19,7 @@
     text-align: center;
 }
 
-.sidebar .menu-wrapper .brand-info h1 {
+.sidebar .menu-wrapper .brand-info h1 a {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
