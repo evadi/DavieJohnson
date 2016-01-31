@@ -18,7 +18,7 @@ body {
     min-width: 300px;
 }
 
-a, a:visited, a:active, a:hover {
+a, a:link, a:visited, a:active, a:hover {
     text-decoration: none;
     color: #333;
 }
@@ -48,10 +48,11 @@ h1.emphasis {
 
 .stripe-container .call-to-action {
     text-align: center;
+    padding:10px 20px;
 }
 
 .stripe-container .call-to-action span {
-    padding: 20px;
+    margin-right: 10px;
     font-size: 16px;
     display: inline-block;
     color: #fff;
@@ -67,39 +68,8 @@ h1.emphasis {
     display: inline-block;
 }
 
-.page-container .center-align {
-    margin:30px auto;
-    padding: 0 30px;
-}
-
-@media (min-width: 768px) {
-    .page-container .center-align {
-        width:388px;
-        padding: 0;
-    }
-}
-
-
-@media (min-width: 992px) {
-    .page-container .center-align {
-        width:612px;
-        padding: 0;
-    }
-}
-
-
-@media (min-width: 1200px) {
-    .page-container .center-align {
-        width:820px;
-        padding: 0;
-    }
-}
-
-@media (min-width: 1480px) {
-    .page-container .center-align {
-        width:1100px;
-        padding: 0;
-    }
+.page-container {
+    padding: 20px;
 }
 
 .page-container h1 {

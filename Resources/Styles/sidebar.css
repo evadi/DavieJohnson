@@ -1,30 +1,22 @@
-@media (min-width: 768px) {
-  .sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 1000;
-    display: block;
-    background-color: #E9F3D9;
-  }
-}
-
 
 .sidebar .menu-wrapper {
-    padding: 50px 10px 20px 10px;
+    
 }
 
 .sidebar .menu-wrapper .brand-info {
-    text-align: center;
+    
+}
+
+.sidebar .menu-wrapper .brand-info h1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 10px 0;
 }
 
 .sidebar .menu-wrapper .brand-info h1 a {
     font-size: 18px;
     font-weight: bold;
     text-transform: uppercase;
-    margin:0 0 5px 0;
-    padding:0;
 }
 
 .sidebar .menu-wrapper .brand-info h2 {
@@ -34,26 +26,21 @@
     text-transform: uppercase;
     margin:0;
     padding:0;
+    display: inline-block;
 }
 
-.sidebar .menu-wrapper .brand-info .divider {
-    vertical-align: middle;
-    margin: 30px 0;
-    position: relative;
+.sidebar .menu-wrapper .divider {
+    vertical-align: bottom;
 }
 
-.sidebar .menu-wrapper .brand-info .divider a {
+.sidebar .menu-wrapper .divider a {
     color: #666;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
     display: block;
     padding: 10px 20px;
-    background: #A1C22D;
     border-radius: 3px;
-}
-
-.sidebar .menu-wrapper .links {
-    display: block;
-    margin: 0 20px 20px 20px;
+    text-align: right;
 }
 
 .sidebar .menu-wrapper .links ul {
@@ -62,13 +49,17 @@
     list-style-type: none;
 }
 
+.sidebar .menu-wrapper .links ul:after {
+    clear:both;
+}
+
 .sidebar .menu-wrapper .links ul a {
-    padding-top: 30px;
-    display: block;
     text-align: center;
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
+    float: left;
+    padding: 0 15px 10px 0;
 }
 
 .sidebar .menu-wrapper .links ul a:hover {

@@ -15,46 +15,27 @@
     bottom:0px;
 }
 
-.feature .middle-container {
+.feature .container {
     position: relative;
     height: 100%;
 }
 
-.feature .middle-container .middle-align {
-    margin:0 auto;
-    width:90%;
+.feature .container .middle-align {
     height: 100%;
     text-align: center;
     display: table;
-}
-
-@media (min-width: 768px) {
-  .feature .middle-container .middle-align {
-    width:80%;
-  }
-}
-
-@media (min-width: 992px) {
-  .feature .middle-container .middle-align {
-    width:60%;
-  }
-}
-
-@media (min-width: 1200px) {
-  .feature .middle-container .middle-align {
-    width:50%;
-  }
+    padding: 20px;
 }
 
 
-.feature .middle-container .middle-align .feature-content {
+.feature .container .middle-align .feature-content {
     color: #fff;
     height: 100%;
     display: table-cell;
     vertical-align: middle;
 }
 
-.feature .middle-container .middle-align .feature-content h1 {
+.feature .container .middle-align .feature-content h1 {
     font-weight: 100;
     font-size:70px;
     letter-spacing: -2px;
@@ -62,7 +43,7 @@
     padding: 0;
 }
 
-.feature .middle-container .middle-align .feature-content h2 {
+.feature .container .middle-align .feature-content h2 {
     font-weight: 100;
     font-size:25px;
     text-transform: uppercase;
@@ -70,7 +51,7 @@
     padding: 0;
 }
 
-.feature .middle-container .middle-align .feature-content p {
+.feature .container .middle-align .feature-content p {
     font-weight: 300;
     font-size:18px;
     padding: 0;
