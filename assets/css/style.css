@@ -924,7 +924,7 @@ MULTI LEVEL DROPDOWN CSS
 /**slider testimonials**/
 #content-region-2 {
   background: #555;
-  padding: 80px 0;
+  padding: 50px 0;
   overflow: hidden;
 }
 #content-region-2 .testi-person {
@@ -2841,7 +2841,7 @@ a.carousel-control i {
 }
 
 .cta-bg {
-  padding: 50px 0;
+  padding: 30px 0;
   background-color: #0FAF97;
 }
 
