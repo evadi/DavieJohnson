@@ -149,7 +149,6 @@ iframe, fieldset {
     zoom: 1; 
 }
 
-
 /*==================== ========*/
 /*========= Forms =========*/
 /*============================*/
@@ -1639,9 +1638,12 @@ MULTI LEVEL DROPDOWN CSS
   margin-bottom: 20px;
 }
 
+.portfolio-thumnail {
+    text-align:center;
+}
+
 .portfolio-thumnail img {
-  width: 100%;
-  height: auto;
+  height: 250px;
 }
 
 .portfolio-desc {
