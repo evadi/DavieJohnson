@@ -93,7 +93,6 @@ $(window).load(function() {
  ---------------------*/
 if (!Modernizr.touch) {
     $('.parallax-1').parallax("50%", 0.5);
-    $('.page-tree-bg').parallax("50%", 0.5);
 }
 
 

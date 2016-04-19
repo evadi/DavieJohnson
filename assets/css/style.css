@@ -2352,13 +2352,10 @@ h3.subtitle {
 .page-tree-bg,
 .page-tree-bg2 {
   background-image: url("../img/plastering-banner.jpg");
-  background-position: center 688px;
   background-color: #0FAF97;
   padding: 40px 0;
   width: 100%;
   position: relative;
-  /*background-size: cover;*/
-  background-attachment: fixed;
   margin-bottom: 0px;
 }
 
