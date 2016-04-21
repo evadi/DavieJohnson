@@ -941,12 +941,13 @@ MULTI LEVEL DROPDOWN CSS
 
 /**slider testimonials**/
 #content-region-2 {
-  background: #555;
+  background: #FFCF75;
+  color:#333;
   padding: 50px 0;
   overflow: hidden;
 }
 #content-region-2 .testi-person {
-  color: #fff;
+  color: #666;
 }
 #content-region-2 .flex-control-paging li a {
   background: transparent;
@@ -1003,10 +1004,17 @@ MULTI LEVEL DROPDOWN CSS
 .footer-col h3:first-letter {
   border-bottom: 5px solid #0FAF97;
 }
-.footer-col p {
+.footer-col p,
+.footer-col p a
+ {
   font-size: 14px;
   color: #b3b3b3;
 }
+.footer-col p a:hover
+ {
+  color: #b3b3b3 !important;
+}
+
 .footer-col form .form-control {
   background-color: #111;
   border: none;
@@ -2324,7 +2332,7 @@ h3.subtitle {
 
 /**************************************testimonials******************************************/
 .testimonials p.testi-text {
-  color: #fff;
+  color: #333;
   font-size: 20px;
   font-weight: 300;
   margin-bottom: 20px;
