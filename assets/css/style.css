@@ -2841,7 +2841,7 @@ a.carousel-control i {
 /**newsletter section**/
 .newsletter-section {
   text-align: center;
-  padding: 60px 0;
+  padding: 40px 0;
   background-color: #f5f5f5;
 }
 .newsletter-section h3 {
@@ -2849,9 +2849,6 @@ a.carousel-control i {
   font-weight: 500;
   color: #000;
   letter-spacing: 2px;
-}
-.newsletter-section p {
-  margin-bottom: 30px;
 }
 .newsletter-section .form-control {
   margin-bottom: 15px;
